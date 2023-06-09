@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools ~= 67.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transaction_aggregator"
+version = "1.0.0"
+authors = [{name="Daniel Mora"}]
+description = "CLI for summarizing etherium transaction logs"
+readme = "README.md"
+dependencies = ["pandas", "dask","click"]
+requires-python = ">=3.10"
+
+[project.scripts]
+tagg = "tagg.cli:main"
