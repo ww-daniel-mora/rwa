@@ -2,6 +2,14 @@
 Etherium token summarization and aggregation tool. This code is an exploration of
 decoded Etherium transaction logs and is not indented for use elsewhere.
 
+
+# Installing
+Install via pip directly from git
+
+```bash
+pip install git+https://github.com/ww-daniel-mora/rwa@main
+```
+
 # Running
 This code can be used as a library or CLI. To use the code as a CLI pass either a path
 to an individual parquet file or a path to a directory containing the parquet files to
